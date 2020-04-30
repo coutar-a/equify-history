@@ -1,0 +1,20 @@
+{
+  "name": "equify-history",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-value-at": "jest valueAt.test.js -b",
+    "test-add": "jest add.test.js -b",
+    "test-serialize": "jest serialize.test.js -b"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "jest": "^25.5.2"
+  }
+}
